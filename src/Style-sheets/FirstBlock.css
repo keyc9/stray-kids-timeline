@@ -1,0 +1,23 @@
+.first-block_text {
+  color: var(--text-main);
+  text-align: center;
+  margin: 60px 0 20px 0;
+  padding-bottom: 20px;
+  font-size: 25px;
+  left: 50%;
+}
+
+.first-point-blank {
+  background-color: var(--bg-main);
+  z-index: 2;
+  top: 50px;
+  left: 49%;
+  margin-left: -2px;
+  background-color: transparent;
+  box-shadow: 0 0 3px 2px aliceblue;
+  border-radius: 50%;
+  display: inline;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
