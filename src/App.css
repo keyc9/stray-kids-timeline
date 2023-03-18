@@ -43,13 +43,11 @@ p, h1, h2, h3, h4, h5, h6 {
   --text-main: aliceblue;
   --polaroid-bg: #fff;
   --maxident: #e47cad;
-  --maxident-opacity: rgba(228, 124, 173, 0.5);
   --oddinary: #04bb21;
-  --oddinary-opacity: rgba(4, 187, 19, 0.5);
   --noeasy: #1a0ff4;
-  --noeasy-opacity: rgba(15, 34, 244, 0.5);
 }
 
+/* gradients */
 .maxident-to-bg {
   background: linear-gradient(to bottom, var(--bg-main) 10%, var(--maxident) 30%);
 
@@ -57,7 +55,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .maxident-era {
   background-color: var(--maxident);
-  color: var(--maxident-bright);
 }
 
 .maxident-to-oddinary {
@@ -66,7 +63,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .oddinary-era {
   background-color: var(--oddinary);
-  color: var(--oddinary-bright);
 }
 
 .oddinary-to-noeasy {
@@ -75,7 +71,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .noeasy-era {
   background-color: var(--noeasy);
-  color: var(--noeasy-bright);
 }
 
 .oddinary-to-bg {
@@ -87,9 +82,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .event-box {
   position: relative;
+  display: grid;
   max-width: 1000px;
   margin: 0 auto;
-  height: 200vh;
   overflow: visible;
 }
 
@@ -114,7 +109,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--text-main);
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 30px 0;
 }
 
 .footer-container_left {
@@ -128,7 +123,12 @@ display: inline-grid;
 
 .footer-container_right {
   display: inline-grid;
+  margin-left: 30px;
+}
 
+.group-container {
+  display: grid;
+  margin-top: 10px;
 }
 
 .footer_text {
@@ -136,17 +136,50 @@ display: inline-grid;
   padding: 10px;
 }
 
-.references{
-  display: flex;
-  align-items: center;
-}
-
 .link {
   color: var(--text-main);
   text-decoration: none;
 }
 
+#support {
+  padding-left: 15px;
+}
+
+.logo_wrapper-1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo_wrapper-2 {
+  display: flex;
+}
+
+
 .logo {
   width: 25px;
   margin: 0 12px 5px 0;
+}
+
+
+.point-wrapper {
+  display: inline;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+  top: -5%;
+  margin-left: -10px;
+  background-color: aliceblue;
+  transition: position 160ms ease-in;
+}
+
+.point-wrapper.fixed {
+  opacity: 1;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px 4px aliceblue;
+  position: fixed;
+  top: 45%;
+  margin-top: 5rem;
 }

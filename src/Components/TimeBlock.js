@@ -4,7 +4,7 @@ import "..//Style-sheets/TimeBlock.css";
 // import img2 from "..//Pictures/img2.jpg";
 // import img3 from "..//Pictures/img3.jpg";
 
-const TimeBlock = ({ lineStyle, date, text }) => {
+const TimeBlock = ({ lineStyle, date, picture, text }) => {
 
 const wrapper = useRef();
 
@@ -40,7 +40,7 @@ const wrapper = useRef();
           <h3 className='date-text'>{date}</h3>
           <div className='picture'>
             <img
-              src={require("..//Pictures/"+date+".jpg")}
+            src={require("..//Pictures/"+picture+".jpg")}
               alt={'Stray Kids ' + date}
             />
           </div>
