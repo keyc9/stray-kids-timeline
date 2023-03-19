@@ -37,7 +37,9 @@ const wrapper = useRef();
     <div className='block-wrapper'>
       <div className='block-body'>
         <div className='date-wrapper'>
+			<div className='date-text_wrapper'>
           <h3 className='date-text'>{date}</h3>
+		  </div>
           <div className='picture'>
             <img
             src={require("..//Pictures/"+picture+".jpg")}
@@ -48,7 +50,7 @@ const wrapper = useRef();
         <div className={'vl ' + lineStyle}>
         </div>
         <div className='event-wrapper fade-in' ref={wrapper}>
-          <h3 className='event-text'>{text}</h3>
+          <h3 className='text event-text'>{text}</h3>
         </div>
       </div>
     </div>

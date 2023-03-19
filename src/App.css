@@ -83,7 +83,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .event-box {
   position: relative;
   display: grid;
-  max-width: 1000px;
+  max-width: 1150px;
   margin: 0 auto;
   overflow: visible;
 }
@@ -161,7 +161,7 @@ display: inline-grid;
   margin: 0 12px 5px 0;
 }
 
-
+/* ! Point */
 .point-wrapper {
   display: inline;
   height: 25px;

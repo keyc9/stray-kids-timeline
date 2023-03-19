@@ -48,12 +48,14 @@ const wrapper = useRef();
   return (
     <div>
       <div className="text-point ">
-        <h3 className='point-text'>Вы находитесь здесь</h3>
+        <h3 className='point-text text'>Вы находитесь здесь</h3>
       </div>
     <div className='first-block-wrapper'>
       <div className='block-body'>
         <div className='date-wrapper'>
+        <div className='date-text_wrapper'>
           <h3 className='date-text'>{date}</h3>
+          </div>
           <div className='picture'>
             <img
             src={require("..//Pictures/"+picture+".jpg")}
@@ -61,13 +63,13 @@ const wrapper = useRef();
             />
           </div>
         </div>
-        <div className="first-point-blank"></div>
-        <div className={'vl ' + lineStyle}>
+       
+        <div className={'vl ' + lineStyle}> <div className="first-point-blank"></div>
         <div className={fix ? "point-wrapper fixed" : "point-wrapper"}>
         </div>
         </div>
         <div className='event-wrapper fade-in' ref={wrapper}>
-          <h3 className='event-text'>{text}</h3>
+          <h3 className='event-text text'>{text}</h3>
         </div>
       </div>
     </div>
