@@ -39,6 +39,9 @@ p, h1, h2, h3, h4, h5, h6 {
 /*! color-pallete */
 
 :root {
+
+  font-size: 28px;
+
   --bg-main: #343434;
   --text-main: aliceblue;
   --polaroid-bg: #fff;
@@ -132,13 +135,17 @@ display: inline-grid;
 }
 
 .footer_text {
-  font-size: 16px;
+  font-size: 0.55rem;
   padding: 10px;
 }
 
-.link {
-  color: var(--text-main);
-  text-decoration: none;
+.link_container {
+  margin-bottom: 10px;
+}
+
+.project-date {
+  margin-top: -20px;
+  justify-self: center;
 }
 
 #support {
@@ -148,7 +155,6 @@ display: inline-grid;
 .logo_wrapper-1 {
   display: flex;
   justify-content: center;
-
 }
 
 .logo_wrapper-2 {
