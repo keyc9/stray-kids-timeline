@@ -112,9 +112,9 @@
   max-width: 400px;
   height: 100%;
   margin: 10px;
-  background: var(--polaroid-bg);
-  padding: 1rem;
-  box-shadow: 0 0.6rem 2.2rem rgba(0, 0, 0, 0.2);
+  /* background: var(--polaroid-bg);
+  padding: 1rem; */
+  /* box-shadow: 0 0.6rem 2.2rem rgba(0, 0, 0, 0.2); */
 }
 
 .picture:hover {
@@ -180,8 +180,6 @@
   }
 }
 
-
-
 @media (max-width: 1000px) {
 
   .date-wrapper {
@@ -193,10 +191,11 @@
   }
 }
 
-
 @media (max-width: 960px) {
 
-
+  .footer_wrapper {
+    margin: 0px 0 30px 0;
+  }
 }
 
 @media (max-width: 940px) {
@@ -210,7 +209,30 @@
 
   .date-text {
     font-size: 1.6rem;
-  }   
+  } 
+  
+  .info-group {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 919px) {
+  .support {
+    margin-top: 23px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .support .logo{
+    margin-right: 0;
+  }
+
+  .logo-first{
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 795px) {
@@ -221,6 +243,7 @@
   .date-text {
     font-size: 1.25rem;
   }
+
 }
 
 @media (max-width: 740px) {
@@ -242,6 +265,14 @@
   }
 }
 
+@media (max-width: 700px) {
+  .cover_wrapper {
+    background: url("..//Pictures/cover_clipped.png") no-repeat bottom right;
+    background-size: cover;
+}
+}
+
+
 @media (max-width: 660px) {
   .picture {
     max-width: 280px;
@@ -257,6 +288,15 @@
   .text {
     font-size: 0.6;
   }
+
+  .footer_text {
+    font-size: 0.50rem;
+  }
+
+  .support {
+    margin-top: 21px;
+  }
+
 }
 
 @media (max-width: 630px) {
@@ -279,6 +319,10 @@
   .last-block-wrapper {
     margin-bottom: 40px;
   }
+
+  .support .logo{
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 560px) {
@@ -293,6 +337,48 @@
 
   .date-text {
     font-size: 1.15rem;
+  }
+  
+  .project-desciption {
+    padding: 0 10px 0 20px;
+  }
+
+  .support {
+    padding: 0 10px 0 20px;
+    margin-top: 19px;
+  }
+
+  .footer_text {
+    font-size: 0.45rem;
+  }
+
+  .logo {
+    width: 20px;
+    margin: 0 12px 0 0;
+  }
+
+  .logo-info .logo {
+    margin-left: 20px;
+  }
+
+  .support .logo{
+    margin-right: 10px;
+  }
+
+  .footer_wrapper {
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-date {
+    position: relative;
+    top: -15px;
+  }
+
+  .project-date {
+    text-align: end;
+    padding-right: 15%;
   }
 }
 
@@ -360,6 +446,16 @@
     margin-left: -7px;
     box-shadow: 0 0 6px 2px aliceblue;
   }
+
+  .logo-info .logo {
+    margin-right: 10px;
+  }
+
+/*   
+  .cover_wrapper {
+    background: url("..//Pictures/cover_mobile.png") no-repeat fixed bottom right;
+    background-size: cover; */
+  /* } */
 }
 
 @media (max-width: 430px) {
@@ -381,6 +477,15 @@
   .text {
     font-size: 0.45rem;
   }
+
+  .logo-info .logo {
+    margin: 0 5px 0 10px;
+  }
+
+  .support {
+    margin-left: -30px;
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -389,20 +494,20 @@
   }
 
   .event-wrapper {
-    margin: 0 0 0 -40px;
-    padding: 0 40px 0 0;
+    margin: 0 10px 10px -40px;
+    padding: 0 10px 0 0;
+  }
+
+  .date-wrapper {
+    margin: 10px -50px 0 10px;
+  }
+
+  .footer_wrapper {
+    margin: 0;
   }
 }
 
 @media (max-width: 380px) {
-  .event-wrapper {
-    margin: 0 10px 0 -40px;
-  }
-
-  .date-wrapper {
-    margin: 10px -50px 0 5px;
-  }
-
   .text {
     font-size: 0.4rem;
   }
@@ -413,11 +518,6 @@
 }
 
 @media (max-width: 370px) {
-  .event-wrapper {
-    margin: 0 10px 0 -40px;
-    padding: 0 50px 0 0;
-  }
-
   .picture {
     max-width: 150px;
   }
@@ -432,50 +532,56 @@
 }
 
 @media (max-width: 360px) {
-  .event-wrapper {
-    margin: 0 20px 0 -45px;
-  }
-
-  .date-wrapper {
-    margin: 10px -60px 0 0;
-  }
-
   .picture {
     max-width: 140px;
   }
     .text {
     font-size: 0.39rem;
   }
+ 
+  .logo {
+    width: 18px;
+  }
+
+  .footer_text{
+    font-size: 0.3rem;
+  }
+
+  .support {
+    margin-top: 13px;
+  }
+
+  .project-date {
+      top: -5%;
+  }
 }
 
 
 @media (max-width: 350px) {
   .event-wrapper {
-    margin: 0 20px 10px -50px;
-    padding: 0 60px 0 0;
+    margin: 0 10px 10px -40px;
+    padding: 0 10px 0 0;
   }
 
   .date-wrapper {
-    margin: 10px -50px 0 -10px;
+    margin: 10px -40px 0 10px;
   }
 
-  .vl {
-    margin: 0 0 0 -30px;
-  }
   .text-point {
     margin: 0 0 0 -30px;
   }
+
+  .project-date {
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  .project-date {
+    top: -7%;
+}
 }
 
 @media (max-width: 340px) {
-  .event-wrapper {
-    margin: 0 10px 0 -60px;
-    padding: 0 60px 0 0;
-  }
-  .vl {
-    margin: 0 0 0 -40px;
-  }
-
   .text-point {
     margin: 0 0 0 -40px;
   }
@@ -484,8 +590,7 @@
 
 @media (max-width: 330px) {
   .event-wrapper {
-    margin: 0 20px 10px -70px;
-    padding: 0 75px 0 0;
+    margin: 0 10px 10px -35px;
   }
 
   .text {
@@ -500,14 +605,14 @@
 }
 
 @media (max-width: 320px) {
-  .event-wrapper {
-    padding: 0 90px 0 0;
+  .logo {
+    width: 15px;
   }
-
 }
 
 @media (max-width: 305px) {
   .event-box {
     overflow-x: visible;
   }
+
 }

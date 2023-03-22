@@ -11,8 +11,8 @@ html, body {
 }
 body {
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
   background-color: #28282B;
+  height: 100%;
 }
 img, picture, video, canvas, svg {
   display: block;
@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .App {
   width: 100%;
-  height: 200vh;
+  /* height: 200vh; */
   overflow: visible;
 
 }
@@ -41,6 +41,8 @@ p, h1, h2, h3, h4, h5, h6 {
 :root {
 
   font-size: 28px;
+  --doc-height: 100%;
+  --doc-width: 100%;
 
   --bg-main: #343434;
   --text-main: aliceblue;
@@ -94,16 +96,20 @@ p, h1, h2, h3, h4, h5, h6 {
 .to-bottom-button {
   position: absolute;
   top: 97vh;
-  width: 30px;
-  height: 20px;
-  background-color: #1a0ff4;
+  /* width: 30px;
+  height: 20px; */
+  background-color: transparent;
+  border: none;
 }
 
 .to-top-button {
-  width: 30px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   position: fixed;
-  bottom: 0;
+  bottom: 2%;
+  left: 2%; 
+  background-color: transparent;
+  border: none;
 }
 
 /*! Footer */
@@ -112,59 +118,50 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--text-main);
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 2;
   margin: 20px 0 30px 0;
 }
 
-.footer-container_left {
-display: inline-grid;
-}
-
-.footer-container_center {
+.project-desciption {
   display: inline-grid;
-  margin-left: 15px;
-}
-
-.footer-container_right {
-  display: inline-grid;
-  margin-left: 30px;
-}
-
-.group-container {
-  display: grid;
-  margin-top: 10px;
+  padding-left: 20px;
 }
 
 .footer_text {
   font-size: 0.55rem;
-  padding: 10px;
 }
 
 .link_container {
+  width: 100%;
   margin-bottom: 10px;
-}
-
-.project-date {
-  margin-top: -20px;
+  display: inline-grid;
   justify-self: center;
 }
 
-#support {
-  padding-left: 15px;
+.project-date {
+  display: inline-grid;
+  width: 100%;
+  text-align: center;
 }
 
-.logo_wrapper-1 {
-  display: flex;
+.logo_container {
+  display: flex; 
   justify-content: center;
 }
 
-.logo_wrapper-2 {
-  display: flex;
+.link-text {
+  width: 100%;
+  text-align: center;
 }
 
-
 .logo {
+  display: inline-flex;
   width: 25px;
-  margin: 0 12px 5px 0;
+  margin: 0 20px 0 0;
+}
+
+.support .logo {
+  margin: 0 10px 0 15px;
 }
 
 /* ! Point */
@@ -177,6 +174,7 @@ display: inline-grid;
   position: relative;
   top: -5%;
   margin-left: -10px;
+  opacity: 0;
   background-color: aliceblue;
   transition: position 160ms ease-in;
 }
