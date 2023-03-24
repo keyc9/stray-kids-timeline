@@ -1,5 +1,4 @@
 const Footer = () => {
-  //   <a className="link" href="https://vk.com/skd_jyp">Саппорт в Telegram</a>
 
   return (
     <footer className='footer_wrapper'>
@@ -40,7 +39,7 @@ const Footer = () => {
 
       <div className='footer-container_right'>
         <div className='group-container'>
-          <div className='link_container footer_text'> <p className="link-text">Саппорт</p></div>
+          <div className='link_container footer_text'> <p className="link-text support-text">Саппорт</p></div>
           <div className='logo_wrapper'>
             <div className='logo_container support'>
             <a className="link" href="https://vk.com/straykids_sup" target="_blank" rel="noopener noreferrer">

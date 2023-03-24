@@ -1,13 +1,8 @@
 import '..//Style-sheets/Cover.css';
 import useWindowDimensions from "./dimensions.js";
-import cover_img from "..//Pictures/cover.png";
 
 const Cover = () => {
-    const { docHeight, docWidth } = useWindowDimensions();
-
-
-    // document.querySelector('cover_wrapper').style.height = Math.round(height)+'px';
-    // document.querySelector('cover_wrapper').style.width = Math.round(width)+'px';
+    const { docHeight } = useWindowDimensions();
 
     return (
         <div className='cover_wrapper' style={ { height: docHeight }}>
