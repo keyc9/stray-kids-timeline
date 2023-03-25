@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stray-kids-timeline/static/css/main.59bd9a11.css",
-    "main.js": "/stray-kids-timeline/static/js/main.164fd16a.js",
+    "main.js": "/stray-kids-timeline/static/js/main.6e3d3f0f.js",
     "static/js/787.fe7d4a0c.chunk.js": "/stray-kids-timeline/static/js/787.fe7d4a0c.chunk.js",
     "static/media/cover.png": "/stray-kids-timeline/static/media/cover.173eeb0ffc18ecd48cac.png",
     "static/media/cover_clipped.png": "/stray-kids-timeline/static/media/cover_clipped.1eee0d27f49d968675d9.png",
@@ -132,11 +132,11 @@
     "static/media/191129.jpg": "/stray-kids-timeline/static/media/191129.8f827628a6f98bac3311.jpg",
     "index.html": "/stray-kids-timeline/index.html",
     "main.59bd9a11.css.map": "/stray-kids-timeline/static/css/main.59bd9a11.css.map",
-    "main.164fd16a.js.map": "/stray-kids-timeline/static/js/main.164fd16a.js.map",
+    "main.6e3d3f0f.js.map": "/stray-kids-timeline/static/js/main.6e3d3f0f.js.map",
     "787.fe7d4a0c.chunk.js.map": "/stray-kids-timeline/static/js/787.fe7d4a0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59bd9a11.css",
-    "static/js/main.164fd16a.js"
+    "static/js/main.6e3d3f0f.js"
   ]
 }
