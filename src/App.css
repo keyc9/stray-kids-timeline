@@ -48,41 +48,135 @@ p, h1, h2, h3, h4, h5, h6 {
 
   --bg-main: #343434;
   --text-main: aliceblue;
-  --polaroid-bg: #fff;
   --maxident: #e47cad;
   --oddinary: #04bb21;
+  --christmas: #bc020f;
   --noeasy: #1a0ff4;
+  --in-life: #ec5510;
+  --go-life: #ef4138;
+  --levanter: #0c00b0;
+  --yellow-wood: #c7ac07;
+  --miroh: #b4332d;
+  --you: #424a7d;
+  --who: #fff429;
+  --not: #e82d04;
+  --predebut: #7f7b7c;
+
 }
 
 /* gradients =============================================================================================================================== */
 .maxident-to-bg {
-  background: linear-gradient(to bottom, var(--bg-main) 10%, var(--maxident) 30%);
-
+  background: linear-gradient(to bottom, var(--bg-main) 10%, var(--maxident));
 }
 
-.maxident-era {
+.maxident {
   background-color: var(--maxident);
 }
 
 .maxident-to-oddinary {
-  background: linear-gradient(to bottom, var(--maxident) 60%, var(--oddinary));
+  background: linear-gradient(to bottom, var(--maxident) 50%, var(--oddinary));
 }
 
-.oddinary-era {
+.oddinary {
   background-color: var(--oddinary);
 }
 
-.oddinary-to-noeasy {
-  background: linear-gradient(to bottom, var(--oddinary) 60%, var(--noeasy));
+.oddinary-to-christmas {
+  background: linear-gradient(to bottom, var(--oddinary) 50%, var(--christmas));
 }
 
-.noeasy-era {
+.christmas {
+  background-color: var(--christmas);
+
+}
+
+.christmas-to-noeasy {
+  background: linear-gradient(to bottom, var(--christmas) 50%, var(--noeasy));
+}
+
+.noeasy {
   background-color: var(--noeasy);
 }
 
-.oddinary-to-bg {
-  background: linear-gradient(to bottom, var(--oddinary) 60%, var(--bg-main));
+.noeasy-to-in-life{
+  background: linear-gradient(to bottom, var(--noeasy) 50%, var(--in-life));
+}
 
+.in-life {
+  background-color: var(--in-life);
+}
+
+
+.in-life-to-go-life{
+  background: linear-gradient(to bottom, var(--in-life) 50%, var(--go-life));
+}
+
+
+.go-life {
+  background-color: var(--go-life);
+}
+
+.go-life-to-levanter{
+  background: linear-gradient(to bottom, var(--go-life) 50%, var(--levanter));
+}
+
+.levanter {
+  background-color: var(--levanter);
+}
+
+.levanter-to-yellow-wood{
+  background: linear-gradient(to bottom, var(--levanter) 50%, var(--yellow-wood));
+}
+
+.yellow-wood {
+  background-color: var(--yellow-wood);
+}
+
+
+.yellow-wood-to-miroh{
+  background: linear-gradient(to bottom, var(--yellow-wood) 50%, var(--miroh));
+}
+
+.miroh {
+  background-color: var(--miroh);
+}
+
+
+.miroh-to-you{
+  background: linear-gradient(to bottom, var(--miroh) 50%, var(--you));
+}
+
+.you {
+  background-color: var(--you);
+}
+
+
+.you-to-who{
+  background: linear-gradient(to bottom, var(--you) 50%, var(--who));
+}
+
+.who {
+  background-color: var(--who);
+}
+
+.who-to-not{
+  background: linear-gradient(to bottom, var(--who) 50%, var(--not));
+}
+
+.not {
+  background-color: var(--not);
+}
+
+.not-to-predebut{
+  background: linear-gradient(to bottom, var(--not) 50%, var(--predebut));
+}
+
+.predebut {
+  background-color: var(--predebut);
+}
+
+.predebut-to-bg{
+  background: linear-gradient(to bottom, var(--predebut), var(--bg-main) 90%);
 }
 
 /*! main styles  ===============================================================================================================================*/

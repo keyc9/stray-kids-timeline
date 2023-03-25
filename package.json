@@ -1,8 +1,8 @@
 {
-  "name": "timeline",
-  "version": "0.1.9",
-  "homepage": "https://gitname.github.io/timeline-firstshow",
-  "private": true,
+  "name": "stray-kids-timeline",
+  "version": "0.1.1",
+  "homepage": "https://gitname.github.io/stray-kids-timeline",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
