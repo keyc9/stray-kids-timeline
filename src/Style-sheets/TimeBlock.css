@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:ital@0;1&family=Oswald&family=Permanent+Marker&display=swap");
 
 /*! blocks styles */
 .first-block-wrapper {
@@ -16,15 +16,6 @@
   justify-items: center;
   align-items: center;
   color: var(--text-main);
-}
-
-.fade-in {
-  opacity: 0;
-  transition: opacity 250ms ease-in;
-}
-
-.fade-in.appear {
-  opacity: 1;
 }
 
 /* decorative elements */

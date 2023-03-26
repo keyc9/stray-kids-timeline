@@ -1,40 +1,9 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import "..//Style-sheets/TimeBlock.css";
 import useWindowDimensions from "./dimensions.js";
 
 const FirstBlock = ({ lineStyle, date, picture, text }) => {
-  const wrapper = useRef();
-
-  useEffect(() => {
-    animateFading(wrapper.current);
-  }, []);
-
-  //animate sliding on scroll
-  const animateFading = (element) => {
-    const fadeOnScrollOptions = {
-      threshold: 0.3,
-      rootMargin: "0px 0px -100px 0px",
-    };
-
-    const fadeOnScrollObserver = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) {
-            return;
-          } else {
-            entry.target.classList.add("appear");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      fadeOnScrollOptions
-    );
-
-    fadeOnScrollObserver.observe(element);
-  };
-
-  const { docHeight } = useWindowDimensions();
-  let pointPosition = (docHeight + 0);
+  const { docHeight} = useWindowDimensions();
 
   const [fix, setFix] = useState(false);
   function setFixedPoint() {
@@ -43,7 +12,6 @@ const FirstBlock = ({ lineStyle, date, picture, text }) => {
     } else {
       setFix(false);
     }
-
   }
 
   window.addEventListener("scroll", setFixedPoint);
@@ -73,7 +41,7 @@ const FirstBlock = ({ lineStyle, date, picture, text }) => {
               className={fix ? "point-wrapper fixed" : "point-wrapper"}
             ></div>
           </div>
-          <div className='event-wrapper fade-in' ref={wrapper}>
+          <div className='event-wrapper'>
             <h3 className='event-text text'>{text}</h3>
           </div>
         </div>

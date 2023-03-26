@@ -47,7 +47,7 @@ function App() {
           lineStyle='maxident-to-bg'
           date='25.03.23'
           picture={require(".//Pictures/250323.jpg")}
-          text='Пятая Годовщина с дебюта Stray Kids.'
+          text='Пятая Годовщина с дебюта Stray Kids'
         />
 
         <VideoBlock
@@ -61,14 +61,14 @@ function App() {
           lineStyle='maxident'
           date='11.02.23'
           picture={require(".//Pictures/230211.jpg")}
-          text='Получение третьего дэсана "Best Performance" на премии HMA 2022.'
+          text='Получение третьего дэсана "Best Performance" на премии HMA 2022'
         />
 
         <TimeBlock
           lineStyle='maxident'
           date='28.01.23'
           picture={require(".//Pictures/230128.jpg")}
-          text='Релиз заглавного трека "THE SOUND" из одноименного первого японского альбома Stray Kids.'
+          text='Релиз заглавного трека "THE SOUND" из одноименного первого японского альбома Stray Kids'
         />
 
         <TimeBlock
@@ -81,7 +81,7 @@ function App() {
           lineStyle='maxident'
           date='19.12.22'
           picture={require(".//Pictures/221219.jpg")}
-          text='Получение второго дэсана "Performance of The Year" на премии AAA 2022.'
+          text='Получение второго дэсана "Album of The Year" на премии AAA 2022'
         />
 
         <VideoBlock
@@ -107,7 +107,7 @@ function App() {
         <VideoBlock
           lineStyle='maxident'
           date='18.10.22'
-          text='Интервью со щеночками'
+          text='Интервью с щеночками'
           youtubeID='tbN9RJQqi-E'
         />
 
@@ -115,21 +115,21 @@ function App() {
           lineStyle='maxident'
           date='16.10.22'
           picture={require(".//Pictures/221016.jpg")}
-          text='Альбом <MAXIDENT> дебютировал на #1 строчке в чарте Billboard 200.'
+          text='Альбом <MAXIDENT> дебютировал на #1 строчке в чарте Billboard 200'
         />
 
         <TimeBlock
           lineStyle='maxident'
           date='12.10.22'
           picture={require(".//Pictures/221012.jpg")}
-          text='Продажи альбома <MAXIDENT> впервые достигли отметки в 2 миллиона копий.'
+          text='Продажи альбома <MAXIDENT> впервые достигли отметки в 2 миллиона копий'
         />
 
         <TimeBlock
           lineStyle='maxident-to-oddinary'
           date='07.10.22'
           picture={require(".//Pictures/221007.jpg")}
-          text='Релиз седьмого мини-альбома <MAXIDENT>.'
+          text='Релиз седьмого мини-альбома <MAXIDENT>'
         />
 
         <TimeBlock
@@ -143,7 +143,7 @@ function App() {
           lineStyle='oddinary'
           date='05.09.22'
           picture={require(".//Pictures/220905.jpg")}
-          text='Хёнджин и Феликс посетили мероприятие "YSL Beauty" Event" в Париже.'
+          text='Хёнджин и Феликс посетили мероприятие "YSL Beauty" Event" в Париже'
         />
         <TimeBlock
           lineStyle='oddinary'
@@ -156,7 +156,7 @@ function App() {
           lineStyle='oddinary'
           date='29.04.22'
           picture={require(".//Pictures/220429.jpg")}
-          text='Начало второго мирового тура "MANIAC".'
+          text='Начало второго мирового тура "MANIAC"'
         />
 
         <VideoBlock
@@ -177,14 +177,14 @@ function App() {
           date='29.03.22
 '
           picture={require(".//Pictures/220329.jpg")}
-          text='Stray Kids заняли #1 место с альбомом "ODDINARY" в чарте Billboard 200.'
+          text='Stray Kids заняли #1 место с альбомом "ODDINARY" в чарте Billboard 200'
         />
         <TimeBlock
           lineStyle='oddinary'
           date='29.03.22
 '
           picture={require(".//Pictures/220329(1).jpg")}
-          text='Альбом "ODDINARY" превысил 1 миллион продаж по версии чарта Hanteo.'
+          text='Альбом "ODDINARY" превысил 1 миллион продаж по версии чарта Hanteo'
         />
         <TimeBlock
           lineStyle='oddinary'
@@ -202,7 +202,7 @@ function App() {
           lineStyle='oddinary-to-christmas'
           date='18.03.22'
           picture={require(".//Pictures/220318.jpg")}
-          text='Релиз шестого мини-альбома <ODDINARY>.'
+          text='Релиз шестого мини-альбома <ODDINARY>'
         />
 
         <TimeBlock
@@ -210,6 +210,13 @@ function App() {
           date='27.01.22'
           picture={require(".//Pictures/221027.jpg")}
           text='Первая фотосессия Ли Ноу в журнале "BEAUTY+"'
+        />
+
+        <VideoBlock
+          lineStyle='christmas'
+          date='24.01.22'
+          text='Первый эпизод шоу "Two Kids Room"'
+          youtubeID='9OkRAef4ejQ'
         />
 
         <TimeBlock
@@ -230,14 +237,14 @@ function App() {
           lineStyle='christmas'
           date='02.12.21'
           picture={require(".//Pictures/211202.jpg")}
-          text='Получение первого дэсана "Performance of The Year" на премии AAA 2021.'
+          text='Получение первого дэсана "Performance of The Year" на премии AAA 2021'
         />
 
         <TimeBlock
           lineStyle='christmas-to-noeasy'
           date='29.11.21'
           picture={require(".//Pictures/211129.jpg")}
-          text='Релиз специального праздничного сингла "Christmas EveL".'
+          text='Релиз специального праздничного сингла "Christmas EveL"'
         />
 
         <TimeBlock
@@ -264,7 +271,7 @@ function App() {
         <VideoBlock
           lineStyle='noeasy'
           date='16.10.21'
-          text='AOTM Хёнджина с "Motley Crew" в STUDIO CHOOM.'
+          text='AOTM Хёнджина с "Motley Crew" в STUDIO CHOOM'
           youtubeID='T-ajHVsMcKk'
         />
 
@@ -272,14 +279,14 @@ function App() {
           lineStyle='noeasy'
           date='10.10.21'
           picture={require(".//Pictures/211010.jpg")}
-          text='Онлайн релиз OSTа Сынмина "Here Always" для дорамы "Hometown Cha-Cha-Cha"'
+          text='Онлайн релиз OST Сынмина "Here Always" для дорамы "Hometown Cha-Cha-Cha"'
         />
 
         <TimeBlock
           lineStyle='noeasy'
           date='23.09.21'
           picture={require(".//Pictures/210923.jpg")}
-          text='Релиз второго японского сингла "Scars".'
+          text='Релиз второго японского сингла "Scars"'
         />
 
         <VideoBlock
@@ -298,7 +305,7 @@ function App() {
         <VideoBlock
           lineStyle='noeasy'
           date='26.08.21'
-          text="Let's Groove Феликса в TikTok."
+          text="Let's Groove Феликса в TikTok"
           youtubeID='AGMP9AN6GVU'
         />
 
@@ -306,7 +313,7 @@ function App() {
           lineStyle='noeasy-to-in-life'
           date='23.08.21'
           picture={require(".//Pictures/210823.jpg")}
-          text='Релиз клипа на заглавную песню "Thunderous" и первого полноформатного альбома "NOEASY".'
+          text='Релиз клипа на заглавную песню "Thunderous" и первого полноформатного альбома "NOEASY"'
         />
 
         <TimeBlock
@@ -319,7 +326,7 @@ function App() {
         <VideoBlock
           lineStyle='in-life'
           date='10.07.21'
-          text='Выход SKZ-PLAYER "Play With Fire" с Хёнджином.'
+          text='Выход SKZ-PLAYER "Play With Fire" с Хёнджином'
           youtubeID='2bBkSgQisbg'
         />
 
@@ -334,13 +341,13 @@ function App() {
           lineStyle='in-life'
           date='08.07.21'
           picture={require(".//Pictures/210708.jpg")}
-          text='Stray Kids становятся моделями бренда одежды WEGO '
+          text='Коллаборация Stray Kids с японским брендом одежды WEGO'
         />
 
         <VideoBlock
           lineStyle='in-life'
           date='07.07.21'
-          text='Выход первого эпизода шоу "SKZ SONG CAMP: Howl in Harmony".'
+          text='Выход первого эпизода шоу "SKZ SONG CAMP: Howl in Harmony"'
           youtubeID='zxyOkkPIuPk'
         />
 
@@ -362,47 +369,47 @@ function App() {
           lineStyle='in-life'
           date='26.06.21'
           picture={require(".//Pictures/210806.jpg")}
-          text='Релиз цифрового сингла "Mixtape: 애".'
+          text='Релиз цифрового сингла "Mixtape: 애"'
         />
 
         <TimeBlock
           lineStyle='in-life'
           date='03.06.21'
           picture={require(".//Pictures/210603.jpg")}
-          text='Победа Stray Kids в финале шоу "Kingdom".'
+          text='Победа Stray Kids в финале шоу "Kingdom"'
         />
         <TimeBlock
           lineStyle='in-life'
           date='28.05.21'
           picture={require(".//Pictures/210528.jpg")}
-          text='Онлайн релиз песни "WOLFGANG" в рамках шоу "Kingdom".'
+          text='Онлайн релиз песни "WOLFGANG" в рамках шоу "Kingdom"'
         />
         <TimeBlock
           lineStyle='in-life'
           date='20.05.21'
           picture={require(".//Pictures/210520.jpg")}
-          text='Трансляция восьмого эпизода "NO LIMIT" на шоу "Kingdom".'
+          text='Трансляция восьмого эпизода "NO LIMIT" на шоу "Kingdom"'
         />
 
         <TimeBlock
           lineStyle='in-life'
           date='04.04.21'
           picture={require(".//Pictures/210520(1).jpg")}
-          text='Сотый эпизод "Комнаты Чана" feat 3RACHA.'
+          text='Сотый эпизод "Комнаты Чана" feat 3RACHA'
         />
 
         <TimeBlock
           lineStyle='in-life'
           date='01.04.21'
           picture={require(".//Pictures/210401.jpg")}
-          text='Трансляция первого эпизода шоу "Kingdom".'
+          text='Трансляция первого эпизода шоу "Kingdom"'
         />
 
         <TimeBlock
           lineStyle='in-life'
           date='18.03.21'
           picture={require(".//Pictures/210318.jpg")}
-          text='Релиз песни "Going Dumb" в партнерстве с PUBG и в коллаборации с артистами Alesso & CORSAK.'
+          text='Релиз песни "Going Dumb" в партнерстве с PUBG и в коллаборации с артистами Alesso & CORSAK'
         />
 
         <TimeBlock
@@ -433,6 +440,13 @@ function App() {
           text='Stray Kids становятся моделями бренда косметики CLIO'
         />
 
+        <VideoBlock
+          lineStyle='in-life'
+          date='15.01.21'
+          text='Макнэ доказывает, что он на вершине'
+          youtubeID='SjKARrJwqzE'
+        />
+
         <TimeBlock
           lineStyle='in-life'
           date='30.12.20'
@@ -458,7 +472,7 @@ function App() {
           lineStyle='in-life'
           date='03.12.20'
           picture={require(".//Pictures/201203(1).jpg")}
-          text='Клип на "Back Door" достиг 100 миллионов просмотров.'
+          text='Клип на "Back Door" достиг 100 миллионов просмотров'
         />
 
         <TimeBlock
@@ -472,7 +486,7 @@ function App() {
           lineStyle='in-life'
           date='04.11.20'
           picture={require(".//Pictures/201104.jpg")}
-          text='Релиз первого японского мини-альбома "ALL IN".'
+          text='Релиз первого японского мини-альбома "ALL IN"'
         />
 
         <TimeBlock
@@ -493,14 +507,14 @@ function App() {
           lineStyle='in-life-to-go-life'
           date='14.09.20'
           picture={require(".//Pictures/200914.jpg")}
-          text='Релиз репак-альбома "IN生".'
+          text='Релиз репак-альбома "IN生"'
         />
 
         <TimeBlock
           lineStyle='go-life'
           date='27.08.20'
           picture={require(".//Pictures/200827.jpg")}
-          text='Клип "God`s Menu" достиг 100 миллионов просмотров.'
+          text='Клип "God`s Menu" достиг 100 миллионов просмотров'
         />
 
         <TimeBlock
@@ -532,7 +546,7 @@ function App() {
         <VideoBlock
           lineStyle='go-life'
           date='16.07.20'
-          text='Релиз OST "Hello Stranger" из веб-дорамы "Pop Out Boy".'
+          text='Релиз OST "Hello Stranger" из веб-дорамы "Pop Out Boy"'
           youtubeID='hKvGwo2p4q8'
         />
 
@@ -560,7 +574,7 @@ function App() {
           lineStyle='go-life-to-levanter'
           date='17.06.20'
           picture={require(".//Pictures/200617.jpg")}
-          text='Релиз клипа на заглавную песню "God`s Menu" и первого полноформатного альбома "GO生".'
+          text='Релиз клипа на заглавную песню "God`s Menu" и первого полноформатного альбома "GO生"'
         />
 
         <TimeBlock
@@ -652,13 +666,6 @@ function App() {
           text='Первая фотосессия Хёнджина и Феликса в журнале "Star1" совместно с косметическим брендом "MISSHA"'
         />
 
-        <VideoBlock
-          lineStyle='levanter'
-          date='15.01.20'
-          text='Макнэ доказывает, что он на вершине'
-          youtubeID='SjKARrJwqzE'
-        />
-
         <TimeBlock
           lineStyle='levanter'
           date='23-24.11.19'
@@ -705,7 +712,7 @@ function App() {
           lineStyle='yellow-wood'
           date='23.11.19'
           picture={require(".//Pictures/191123(1).jpg")}
-          text='Появление официального лайтстика.'
+          text='Появление официального лайтстика'
         />
 
         <VideoBlock
@@ -725,7 +732,7 @@ function App() {
         <VideoBlock
           lineStyle='yellow-wood'
           date='07.11.19'
-          text='Релиз первого ОСТа Stray Kids "Story That Won`t End (끝나지 않은 이야기)" к дораме "Extraordinary You"'
+          text='Релиз первого OST Stray Kids "Story That Won`t End (끝나지 않은 이야기)" к дораме "Extraordinary You"'
           youtubeID='0Dk-27B5Uzg'
         />
 
@@ -754,7 +761,7 @@ function App() {
           lineStyle='yellow-wood'
           date='30.09.19'
           picture={require(".//Pictures/190930.jpg")}
-          text='Анонс мирового тура "District 9 : Unlock". Тур начался 23.11.19 с концерта в Сеуле и завершился 16.02.20 концертом в Лос-Анджелесе.'
+          text='Анонс мирового тура "District 9 : Unlock". Тур начался 23.11.19 с концерта в Сеуле и завершился 16.02.20 концертом в Лос-Анджелесе'
         />
 
         <VideoBlock
@@ -768,12 +775,12 @@ function App() {
           lineStyle='yellow-wood'
           date='30.08.19'
           picture={require(".//Pictures/190830.jpg")}
-          text='Хёнджин просит STAY помочь выбрать ему сережки в'
+          text='Хёнджин просит STAY помочь выбрать ему сережки в Twitter'
         />
 
         <TimeBlock
           lineStyle='yellow-wood'
-          date='05.08.19'
+          date='04.08.19'
           picture={require(".//Pictures/190805.jpg")}
           text='Концерт в Москве'
         />
@@ -822,7 +829,7 @@ function App() {
           lineStyle='miroh'
           date='30.04.19'
           picture={require(".//Pictures/190430.jpg")}
-          text='Альбом "Clè: Miroh" преодолел отметку в 400 000 проданных копий, став первым альбомом Stray Kids, который достиг этой цифры.'
+          text='Альбом "Clè: Miroh" преодолел отметку в 400 000 проданных копий, став первым альбомом Stray Kids, который достиг этой цифры'
         />
 
         <TimeBlock
@@ -871,7 +878,7 @@ function App() {
           lineStyle='you'
           date='07.03.19'
           picture={require(".//Pictures/190307.jpg")}
-          text='Анонс тура "HI-STAY" в Корее. Начался 15 марта в Пусане и завершился 20 апреля в Сеуле.'
+          text='Анонс тура "HI-STAY" в Корее. Начался 15 марта в Пусане и завершился 20 апреля в Сеуле'
         />
         <TimeBlock
           lineStyle='you'
@@ -891,7 +898,7 @@ function App() {
           lineStyle='you'
           date='15.02.19'
           picture={require(".//Pictures/190215.jpg")}
-          text='Выпускной Хенджина'
+          text='Выпускной Хёнджина'
         />
         <TimeBlock
           lineStyle='you'
@@ -910,7 +917,7 @@ function App() {
         <VideoBlock
           lineStyle='you'
           date='03.02.19'
-          text='Первая трансляция "Маленького счастья Сынмина"'
+          text='Первая трансляция "Маленькое, но значимое счастье Сынмина"'
           youtubeID='D265gdD-gqM'
         />
 
@@ -945,7 +952,7 @@ function App() {
         <VideoBlock
           lineStyle='you'
           date='03.01.19'
-          text='Первая трансляция "Школа Гав-мяу"'
+          text='Первая трансляция "Школа  щеночка и котёнка"'
           youtubeID='H2Ue4Fc4A5c'
         />
 
@@ -959,7 +966,7 @@ function App() {
         <VideoBlock
           lineStyle='you'
           date='30.12.18'
-          text='Первая трансляция "Повседневная жизнь макнэ"'
+          text='Первая трансляция "Личная жизнь макнэ"'
           youtubeID='iiYhb1lx4s8'
         />
 
@@ -974,13 +981,13 @@ function App() {
           lineStyle='you'
           date='09.12.18'
           picture={require(".//Pictures/181209.jpg")}
-          text='YouTube канал Stray Kids преодолел отметку в 1 000 000 подписчиков.'
+          text='YouTube канал Stray Kids преодолел отметку в 1 000 000 подписчиков'
         />
         <TimeBlock
           lineStyle='you'
           date='29.10.18'
           picture={require(".//Pictures/181029.jpg")}
-          text='Stray Kids впервые преодолели отметку в 1 000 000 ежемесячных слушателей на Spotify.'
+          text='Stray Kids впервые преодолели отметку в 1 000 000 ежемесячных слушателей на Spotify'
         />
         <VideoBlock
           lineStyle='you'
@@ -1039,13 +1046,6 @@ function App() {
           date='14.08.18'
           text='Первый эпизод шоу "SK-TALKER"'
           youtubeID='wMqZNQvTxXM'
-        />
-
-        <VideoBlock
-          lineStyle='who'
-          date='11.08.18'
-          text='Первый эпизод шоу "Two Kids Room"'
-          youtubeID='9OkRAef4ejQ'
         />
 
         <TimeBlock
@@ -1119,7 +1119,7 @@ function App() {
         <VideoBlock
           lineStyle='not'
           date='30.04.18'
-          text='Песня "District 9" преодолела отметку в 1 000 000 прослушиваний.'
+          text='Песня "District 9" преодолела отметку в 1 000 000 прослушиваний'
           youtubeID='u6unJQownW4'
         />
         <TimeBlock
@@ -1257,7 +1257,7 @@ function App() {
         <VideoBlock
           lineStyle='predebut'
           date='22.08.17'
-          text='Шоукейс стажеров JYP, на котором Stray Kids были отобраны для участия в шоу на выживание через голосование.'
+          text='Шоукейс стажеров JYP, на котором Stray Kids были отобраны для участия в шоу на выживание через голосование'
           youtubeID='csT59JB9j48'
         />
 
@@ -1272,14 +1272,14 @@ function App() {
           lineStyle='predebut'
           date='2017 год'
           picture={require(".//Pictures/year2017(2).jpg")}
-          text='Сынмин присоединился к JYPE'
+          text='Сынмин присоединился к JYP'
         />
 
         <TimeBlock
           lineStyle='predebut'
           date='2017 год'
           picture={require(".//Pictures/year2017.jpg")}
-          text='Феликс присоединился к JYPE'
+          text='Феликс присоединился к JYP'
         />
 
         <TimeBlock
@@ -1293,34 +1293,34 @@ function App() {
           lineStyle='predebut'
           date='2016 год'
           picture={require(".//Pictures/year2016.jpg")}
-          text='Чанбин присоединился к JYPE'
+          text='Чанбин присоединился к JYP'
         />
 
         <TimeBlock
           lineStyle='predebut'
           date='2015 год'
           picture={require(".//Pictures/year2015(3).jpg")}
-          text='Хёнджин присоединился к JYPE'
+          text='Хёнджин присоединился к JYP'
         />
 
         <TimeBlock
           lineStyle='predebut'
           date='2015 год'
           picture={require(".//Pictures/year2015(2).jpg")}
-          text='Ай Эн присоединился к JYPE'
+          text='Ай Эн присоединился к JYP'
         />
 
         <TimeBlock
           lineStyle='predebut'
           date='2015 год'
           picture={require(".//Pictures/year2015.jpg")}
-          text='Хан присоединился к JYPE'
+          text='Хан присоединился к JYP'
         />
 
         <LastBlock
           lineStyle='predebut-to-bg'
           date='11.04.11'
-          text='Бан Чан присоединился к JYPE'
+          text='Бан Чан присоединился к JYP'
           youtubeID='dEKUcZqcj3g'
         />
         <Footer />
